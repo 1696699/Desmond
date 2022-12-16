@@ -1,0 +1,66 @@
+.line{
+    height:6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+body{
+    margin: 0;
+    padding-top: 720px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#welcome1{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#c8eded 0%, #aae0f3 20%, #8bbde6 40%, #6b9acf 60%, #6074ab 80%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 8;
+}
+.profile{
+    border-radius: 15px;
+}
+.Heading_words{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.Heading_words2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+}
+.Heading_words1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+#par{
+    font-family: 'Courier New', Courier, monospace;
+}
+.links{
+    display: inline;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.menu{
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#posts{
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 8;
+}
